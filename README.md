@@ -4,7 +4,8 @@
 ## EndPoints
 
 ### Client
-      
+
+---      
 https://localhost8080/PaymentServiceApp/clients
 
 Get request returns all clients
@@ -13,6 +14,7 @@ Get request returns all clients
 Post request creates a client (name and surname are both required)
 [Sample Photo](https://github.com/Abdullah-Sahin/PaymentServiceBackEnd/blob/main/Photos/GetAllClients.png)
 
+---
 https://localhost8080/PaymentServiceApp/clients/{clientId}
 
 Get request returns client with given clientId
@@ -24,6 +26,7 @@ Put request with name and surname, at least one field required
 Delete request with empty body
 [Sample Photo](https://github.com/Abdullah-Sahin/PaymentServiceBackEnd/blob/main/Photos/DeleteClient.png)
 
+---
 https://localhost8080/PaymentServiceApp/clients/{clientId}createPayment
 
 Post request creates a payment for given client
@@ -33,6 +36,7 @@ Post request creates a payment for given client
 
 ### Bill
 
+---
 https://localhost8080/PaymentServiceApp/bills
 
 Get request returns all bills
@@ -41,6 +45,7 @@ Get request returns all bills
 Post request creates a new bill with amount and clientId, both fields required
 [Sample Photo](https://github.com/Abdullah-Sahin/PaymentServiceBackEnd/blob/main/Photos/PostBill.png)
 
+---
 https://localhost8080/PaymentServiceApp/bills/{billId}
 
 Get request returns bill with given billId
@@ -52,21 +57,25 @@ Put request with amount and transaction date, at least one field required
 Delete Request
 [Sample Photo](https://github.com/Abdullah-Sahin/PaymentServiceBackEnd/blob/main/Photos/DeleteBill.png)
 
+---
 https://localhost8080/PaymentServiceApp/bills?clientId={clientId}
 
 Get request returns bills of the client supplied
 [Sample Photo](https://github.com/Abdullah-Sahin/PaymentServiceBackEnd/blob/main/Photos/GetBillsByClient.png)
 
+---
 https://localhost8080/PaymentServiceApp/bills?isPaid={paymentStatus}[Sample Photo]()
 
 Get request returns bills with supplied payment status
 [Sample Photo](https://github.com/Abdullah-Sahin/PaymentServiceBackEnd/blob/main/Photos/GetBillsByPaid.png)
 
+---
 https://localhost8080/PaymentServiceApp/bills?clientId={clientId}&isPaid={paymentStatus}
 
 Get request returns the bills belonging to given client and are of given payment status
 [Sample Photo](https://github.com/Abdullah-Sahin/PaymentServiceBackEnd/blob/main/Photos/GetBillsByClient%26Paid.png)
 
+---
 https://localhost8080/PaymentServiceApp/pay/{billId}/pay
 
 Put request with empty body to pay with given billId
@@ -76,11 +85,13 @@ Put request with empty body to pay with given billId
 
 ### Payment
 
+---
 https://localhost8080/PaymentServiceApp/payments
 
 Get request returns all payments
 [Sample Photo](https://github.com/Abdullah-Sahin/PaymentServiceBackEnd/blob/main/Photos/GetAllPayments.png)
 
+---
 https://localhost8080/PaymentServiceApp/payment?clientId={clientId}
 
 Get request return the payment of client given
