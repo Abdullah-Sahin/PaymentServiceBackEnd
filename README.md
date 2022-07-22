@@ -1,5 +1,33 @@
 # Payment Service App
 
+Client
+  
+  1. clientId
+  2. Name
+  3. Surname
+  
+Clients can have multiple bills and can have only one payment account. If client is deleted, relative bills and payment account are also deleted
+  
+Bill
+
+  1. billId
+  2. Amount
+  3. TransactionDate
+  4. PaymentStatus
+  5. Payment Date
+  6. Client
+  
+One bill can only belong to one client, if a bill is paid, the payment account of client is automatically updated. If a bill is paid, no change can be made on the    bill
+  
+Payment
+
+  1. paymentId
+  2. TotalPaidAmount
+  3. LastUpdate
+  4. Client
+  
+One payment account belongs to only one client. 
+
 
 ## EndPoints
 
