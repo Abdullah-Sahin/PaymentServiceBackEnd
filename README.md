@@ -12,7 +12,7 @@ Get request returns all clients
 [Sample Photo](https://github.com/Abdullah-Sahin/PaymentServiceBackEnd/blob/main/Photos/GetAllClients.png)
 
 Post request creates a client (name and surname are both required)
-[Sample Photo](https://github.com/Abdullah-Sahin/PaymentServiceBackEnd/blob/main/Photos/GetAllClients.png)
+[Sample Photo](https://github.com/Abdullah-Sahin/PaymentServiceBackEnd/blob/main/Photos/PostClient.png)
 
 ---
 https://localhost8080/PaymentServiceApp/clients/{clientId}
@@ -125,7 +125,7 @@ Get request return the payment of client given
 ---
 
 1. Post Client Request
-   ![](https://github.com/Abdullah-Sahin/PaymentServiceBackEnd/blob/main/Photos/GetAllClients.png)
+   ![](https://github.com/Abdullah-Sahin/PaymentServiceBackEnd/blob/main/Photos/PostClient.png)
 2. Post Bill Request
    ![](https://github.com/Abdullah-Sahin/PaymentServiceBackEnd/blob/main/Photos/PostBill.png)
 3. Post Payment For Client Request
