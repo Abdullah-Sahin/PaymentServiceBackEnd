@@ -97,57 +97,7 @@ https://localhost8080/PaymentServiceApp/payment?clientId={clientId}
 Get request return the payment of client given
 [Sample Photo](https://github.com/Abdullah-Sahin/PaymentServiceBackEnd/blob/main/Photos/GetPaymentById.png)
 
-## Sample Photos
 
----
-
-1. Get All Clients
-   ![](https://github.com/Abdullah-Sahin/PaymentServiceBackEnd/blob/main/Photos/GetAllClients.png)
-2. Get Client By clientId
-   ![](https://github.com/Abdullah-Sahin/PaymentServiceBackEnd/blob/main/Photos/GetClientById.png)
-3. Get All Bills
-   ![](https://github.com/Abdullah-Sahin/PaymentServiceBackEnd/blob/main/Photos/GetAllBills.png)
-4. Get Bills By Client
-   ![](https://github.com/Abdullah-Sahin/PaymentServiceBackEnd/blob/main/Photos/GetBillsByClient.png)
-5. Get Bills By Payment Status
-   ![](https://github.com/Abdullah-Sahin/PaymentServiceBackEnd/blob/main/Photos/GetBillsByPaid.png)
-6. Get Bills By Client & Payment Status
-   ![](https://github.com/Abdullah-Sahin/PaymentServiceBackEnd/blob/main/Photos/GetBillsByClient%26Paid.png)
-7. Get Bill By billId
-   ![](https://github.com/Abdullah-Sahin/PaymentServiceBackEnd/blob/main/Photos/GetBillById.png)
-8. Get All Payments
-   ![](https://github.com/Abdullah-Sahin/PaymentServiceBackEnd/blob/main/Photos/GetAllPayments.png)
-9. Get Payment By ClientId
-   ![](https://github.com/Abdullah-Sahin/PaymentServiceBackEnd/blob/main/Photos/GetPaymentById.png)
-
-## Post Requests
-
----
-
-1. Post Client Request
-   ![](https://github.com/Abdullah-Sahin/PaymentServiceBackEnd/blob/main/Photos/PostClient.png)
-2. Post Bill Request
-   ![](https://github.com/Abdullah-Sahin/PaymentServiceBackEnd/blob/main/Photos/PostBill.png)
-3. Post Payment For Client Request
-   ![](https://github.com/Abdullah-Sahin/PaymentServiceBackEnd/blob/main/Photos/PostPaymentForClient.png)
-
-## Update Requests
-
----
-1. Update Client Request
-   ![](https://github.com/Abdullah-Sahin/PaymentServiceBackEnd/blob/main/Photos/UpdateClient.png)
-2. Update Bill Request
-   ![](https://github.com/Abdullah-Sahin/PaymentServiceBackEnd/blob/main/Photos/UpdateBill.png)
-3. Pay Bill Request
-   ![](https://github.com/Abdullah-Sahin/PaymentServiceBackEnd/blob/main/Photos/PayBill.png)
-
-## Delete Requests
-
----
-1. Delete Client Request
-   ![](https://github.com/Abdullah-Sahin/PaymentServiceBackEnd/blob/main/Photos/DeleteClient.png)
-2. Delete Bill Request
-   ![](https://github.com/Abdullah-Sahin/PaymentServiceBackEnd/blob/main/Photos/DeleteBill.png)
 
 
 
