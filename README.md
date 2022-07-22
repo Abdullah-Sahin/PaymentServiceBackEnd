@@ -98,6 +98,9 @@ Get request return the payment of client given
 [Sample Photo](https://github.com/Abdullah-Sahin/PaymentServiceBackEnd/blob/main/Photos/GetPaymentById.png)
 
 
+## To see other project (SOS GAME) please [click here](https://github.com/Abdullah-Sahin/SOS-3x3-to-7x7-)
+
+
 
 
 
