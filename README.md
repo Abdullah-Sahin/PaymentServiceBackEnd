@@ -1,5 +1,9 @@
 # Payment Service App
 
+---
+Create Database named PaymentServiceApp in Postgres and change password in the application.properties file
+
+---
 Client
   
   1. clientId
